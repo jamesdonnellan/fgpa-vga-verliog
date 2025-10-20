@@ -1,1 +1,1 @@
-# fgpa-vga-verliog-soc
+# fgpa-vga-verliog
