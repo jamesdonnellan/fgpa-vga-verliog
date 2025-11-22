@@ -23,10 +23,8 @@ Describe the synthesis and implementation processes. Consider including 1/2 usef
 ### **Demonstration** 
 Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
-## **My VGA Design Edit**
-Introduce your own design idea. Consider how complex/achievabble this might be or otherwise. Reference any research you do online (use hyperlinks).
-
-For my project I wanted to create a pixel art of Spider-Man. I felt it would be a manageable design to achieve in the projects timeframe. For design reference, I chose a spiderman pixel art from [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). 
+## **My VGA Design **
+Growing up as a Marvel fan, I wanted my project to be something that I have an interest in. So for my project I chose to create a pixel art of Spider-Man. I felt it would be a manageable design to achieve in the projects timeframe. For design reference, I chose a spiderman pixel art from [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). 
 
 ![image10 (1)](https://github.com/user-attachments/assets/e5033b1c-976c-4a61-a163-c70e9d503cf4)
 
@@ -52,27 +50,14 @@ After correcting my incorrect sizing, I continued working hard to get the mask d
 
 ### **Code Adaptation**
 Briefly show how you changed the template code to display a different image. Demonstrate your understanding. Guideline: 1-2 short paragraphs.
+
+I altered the template codes colour scheme by changing the binary colour code for each row and column. I chose my pixel sizing based off of the row and column it corresponded to in the code.
+
+I changed the multiple striped colours to be a default colour of all white, by changing the RGB binary code to be 1111 (the code for white).
+
 ### **Simulation**
 Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
 ### **Synthesis**
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
-
-## **More Markdown Basics**
-This is a paragraph. Add an empty line to start a new paragraph.
-
-Font can be emphasised as *Italic* or **Bold**.
-
-Code can be highlighted by using `backticks`.
-
-Hyperlinks look like this: [GitHub Help](https://help.github.com/).
-
-A bullet list can be rendered as follows:
-- vectors
-- algorithms
-- iterators
-
-Images can be added by uploading them to the repository in a /docs/assets/images folder, and then rendering using HTML via githubusercontent.com as shown in the example below.
-
-<img src="https://raw.githubusercontent.com/melgineer/fpga-vga-verilog/main/docs/assets/images/VGAPrjSrcs.png">
