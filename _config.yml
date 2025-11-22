@@ -1,9 +1,9 @@
 # Site settings
 title: System-on-Chip Design & Verification
 author:
-  name: Michelle Lynch
-  email: your-email@domain.com
-description: "A blog."
+  name: James Donnellan
+  email: G00434671@atu.ie
+description: "My SOC fgpa-vga-verilog project"
 
 # Build settings
 remote_theme: jekyll/minima
