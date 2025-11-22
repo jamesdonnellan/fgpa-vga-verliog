@@ -34,17 +34,17 @@ For my project I wanted to create a pixel art of Spider-Man. I felt it would be 
 After the ColourStripes Lab, I began to alter my design. I initially started by setting the background default colour to be fully white. I then began inserting red pixels to get a feel for the sizing and placement that I would need to design my SpiderMan art.
 <br>
 
-![image1 (3)](https://github.com/user-attachments/assets/529c8346-3b0b-4741-bf0c-e73573946273)
 ![image2 (4)](https://github.com/user-attachments/assets/b037eaab-3058-43f7-b47b-897025d81f9a)
 
 <br>
 After being 1/4 of the way done, I realised that I had made a mistake on my sizing for the mask. The design was on course to have been far too big.
 <br>
 
+![image1 (3)](https://github.com/user-attachments/assets/529c8346-3b0b-4741-bf0c-e73573946273)
 ![image0 (4)](https://github.com/user-attachments/assets/d598893d-c93c-421e-b9e9-23e6d6e71286)
 
 <br>
-After correcting my incorrect sizing, I worked efficiently to get the mask halfway done, as you can see here.
+After correcting my incorrect sizing, I continued working hard to get the mask done, as you can see here.
 
 
 
