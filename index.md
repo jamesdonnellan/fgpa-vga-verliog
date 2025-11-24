@@ -59,3 +59,7 @@ Show how you simulated your own design. Are there any things to note? Demonstrat
 Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
 ### **Demonstration**
 If you get your own design working on the Basys3 board, take a picture! Guideline: 1-2 sentences.
+My Finished Spider-Man Mask! 
+![FinishedSoCproject](https://github.com/user-attachments/assets/63ed01cc-51e7-4d87-a93e-1feaec0ba89b)
+
+
