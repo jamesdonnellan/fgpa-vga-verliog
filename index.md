@@ -25,8 +25,9 @@ Perhaps add a picture of your demo. Guideline: 1/2 sentences.
 
 ## **My VGA Design **
 Growing up as a Marvel fan, I wanted my project to be something that I have an interest in. So for my project I chose to create a pixel art of Spider-Man. I felt it would be a manageable design to achieve in the projects timeframe. For design reference, I chose a spiderman pixel art from [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). 
+<br><br>
+<img width="819" height="695" alt="image" src="https://github.com/user-attachments/assets/9d4db5cc-0987-4f7d-add2-fad6d63fa1ec" />
 <br>
-<img width="819" height="695" alt="SpiderMan Layout Photo" src="https://github.com/user-attachments/assets/31a3f971-8457-4516-af22-f9a1d8548078" />
 To prepare my design before coding, I downloaded the image I wanted to use, opened it in Microsoft Paint, and used the photo as a map. I added numbers to make coding easier, to help me quickly see what row/column I was on. I also drew lines through the drawing to map my progress in between college labs.
 
 
