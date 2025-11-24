@@ -7,6 +7,13 @@ categories: demo
 
 Welcome to my FPGA VGA Pixel Art project, where Spider-Man's iconic mask comes to life! Using the Basys3 FGPA board, Verilog and digital logic, I adapted my pixel art design to replace the online image with my own recreation in 640x480.
 
+**Basys3 FGPA Board & Reference Photo:** <br>                                        
+<img width="318" height="241" alt="SoC Board" src="https://github.com/user-attachments/assets/0c4c5c96-72e9-41f9-8824-b097643990c5" /> 
+<img width="318" height="241" alt="UpdatedSpiderManMask" src="https://github.com/user-attachments/assets/3426797c-ce80-43e7-b600-728c357a7821" />
+<br> 
+##
+
+
 
 ## **Template VGA Design**
 ### **Project Set-Up**
