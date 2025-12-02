@@ -4,7 +4,7 @@ title: FPGA VGA Driver Project
 tags: fpga vga verilog
 categories: demo
 ---
-
+  
 Welcome to my FPGA VGA Pixel Art project, where Spider-Man's iconic mask comes to life! Using the Basys3 FGPA board, Verilog and digital logic, I adapted my pixel art design to replace the online image with my own recreation on a 640x480 VGA display.
 
 **Basys3 FGPA Board & Reference Photo:** <br>                                        
@@ -14,7 +14,7 @@ Welcome to my FPGA VGA Pixel Art project, where Spider-Man's iconic mask comes t
 
 ## **Spider-Man's Mask VGA Design**
 ### **Project Set-Up**
-I used Vivado and a Basys3 FGPA Board to create my Spider-Man mask. I started by creating a new project, adding my template code files used in previous Labs, and then altered and added to them to create my design. 
+I used Vivado and a Basys3 FGPA Board to create my Spider-Man mask. I started by creating a new project, adding my template code files used in previous Labs [1], and then altered and added to them to create my design. 
 The previous labs guided me through the set up process using Vivado and the Basys3 board. I follow the set up protocal of build, synthesise, implement and then progamming the board.
 
 <img width="1500" height="750" alt="Project Summary Photo" src="https://github.com/user-attachments/assets/0623e279-75fb-4346-8504-38662d82fad0" />
@@ -24,23 +24,19 @@ The previous labs guided me through the set up process using Vivado and the Basy
 ### **What Did The Template Code Do?**
 The template code generates vertical colour bands on a VGA output. It took the column from the VGA timing module and used it to decide what colour each pixel should display. Then, using the RGB combination through 'if else' conditional statements, the colours got selected and displayed into 8 equal stripes.
 
-### **My Simulation Process**
-Before programming the Basys3 board, the VGA system is checked through Vivado simulation by using the testbench. I was able to watch how signals such as hsync, vsync, pixel position counters such as row and col, and the RGB values change over time in waveforms. This simulation allowed me to ensure that the VGA timing pattern was correct.
+### **Simulation Process**
+
 
 ### **Synthesis**
-<img width="318" height="241" alt="image" src="https://github.com/user-attachments/assets/642dff3a-2295-46a4-8f5b-c3f8557147ee" />
-<img width="318" height="241" alt="image" src="https://github.com/user-attachments/assets/5fc6de25-3dcd-4b2d-a681-fc64b65dc0af" />
-<img width="318" height="241" alt="image" src="https://github.com/user-attachments/assets/7d382617-b611-4d9d-8918-ffb51e59b0b3" />
 
-After the simulation process, Vivado carried out the synthesis, which converted my VGA pixel-art design from code into a hardware circuit that I used to run on the Basys3 FGPA. During this step, Vivado determined how the modules in my project, such as the VGA timing module and pixel colour logic are implemented using actual FGPA resources like flip-flops, LUTs and I/O buffers. The photo of my circuit above shows how different parts of my code are mapped to physical hardware components that drive the VGA output and display the pixel art on the monitor.
-<br>
+
 ### **Demonstration** 
 After setting up my project properly, here was my first steps to designing my Spider-Man Mask!
 <br>
 ![image10 (1)](https://github.com/user-attachments/assets/e5033b1c-976c-4a61-a163-c70e9d503cf4)
 
 ## **My VGA Design - Spider-Man's Mask**
-Growing up as a Marvel fan, I wanted my project to be something that I have an interest in. So for my project I chose to create a pixel art of Spider-Man. I felt it would be a manageable design to achieve in the projects timeframe. For design reference, I chose a spiderman pixel art from [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). [1]
+Growing up as a Marvel fan, I wanted my project to be something that I have an interest in. So for my project I chose to create a pixel art of Spider-Man. I felt it would be a manageable design to achieve in the projects timeframe. For design reference, I chose a spiderman pixel art from [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). [2]
 <br><br>
 <img width="318" height="241" alt="image" src="https://github.com/user-attachments/assets/9d4db5cc-0987-4f7d-add2-fad6d63fa1ec" />
 <br>
@@ -72,10 +68,18 @@ I then calculated the correct pixel sizing that I would need to ensure my design
 <br>
 
 
-### **Simulation**
-Show how you simulated your own design. Are there any things to note? Demonstrate your understanding. Add a screenshot. Guideline: 1-2 short paragraphs.
-### **Synthesis**
-Describe the synthesis & implementation outputs for your design, are there any differences to that of the original design? Guideline 1-2 short paragraphs.
+### **My Simulation & Synthesis Process**
+Before programming the Basys3 board, the VGA system is checked through Vivado simulation by using the testbench. I was able to watch how signals such as hsync, vsync, pixel position counters such as row and col, and the RGB values change over time in waveforms. This simulation allowed me to ensure that the VGA timing pattern was correct.
+<br>
+
+<img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/642dff3a-2295-46a4-8f5b-c3f8557147ee" />
+<img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/5fc6de25-3dcd-4b2d-a681-fc64b65dc0af" />
+<img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/7d382617-b611-4d9d-8918-ffb51e59b0b3" />
+
+After the simulation process, Vivado carried out the synthesis, which converted my VGA pixel-art design from code into a hardware circuit that I used to run on the Basys3 FGPA. During this step, Vivado determined how the modules in my project, such as the VGA timing module and pixel colour logic are implemented using actual FGPA resources like flip-flops, LUTs and I/O buffers. 
+<br>
+The photo of my circuit above shows how different parts of my code are mapped to physical hardware components that drive the VGA output and display the pixel art on the monitor.
+<br>
 ### **Demonstration**
 After roughly 70 if elses and 530 lines of code... Here is my Finished Spider-Man Mask! 
 <br>
@@ -83,6 +87,9 @@ After roughly 70 if elses and 530 lines of code... Here is my Finished Spider-Ma
 
 
 ### References
-[1] Pixil Art, "Spider-Man", [Online], Available: [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). 
+[1] M.Lynch, "System On Chip", Lecture/Lab, ATU, Galway, 2025
+<br>
+[2] Pixil Art, "Spider-Man", [Online], Available: [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). 
 
-[2] M.Lynch, "System On Chip", Lecture/Lab, ATU, Galway, 2025
+
+
