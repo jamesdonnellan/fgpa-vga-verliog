@@ -25,10 +25,10 @@ The previous labs guided me through the set up process using Vivado and the Basy
 The template code generates vertical colour bands on a VGA output. It took the column from the VGA timing module and used it to decide what colour each pixel should display. Then, using the RGB combination through 'if else' conditional statements, the colours got selected and displayed into 8 equal stripes.
 
 ### **Simulation Process**
-
+To start off my project, I simulated the template code using Vivado to ensure that everything was working, and that no code was broken. Once I ensured that the VGA timing module checked correct behavior, I began coding my own design based off of the template code. This step was essential in my project as before making any first steps, I needed to ensure that timing was perfect, to avoid any breakages in the VGA output.
 
 ### **Synthesis**
-
+After I completed my initial simulation, Vivado performed Synthesis to map the design onto the Basys3 FGPA board. Then, it produced reports detailing resource usage, timing information and a hardware diagram on how the design would fit onto the chip. The original design didn't have much comparison logic, so the hardware design was more simple than my final design.
 
 ### **Demonstration** 
 After setting up my project properly, here was my first steps to designing my Spider-Man Mask!
