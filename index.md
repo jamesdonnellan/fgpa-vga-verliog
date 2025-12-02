@@ -17,7 +17,7 @@ Welcome to my FPGA VGA Pixel Art project, where Spider-Man's iconic mask comes t
 I used Vivado and a Basys3 FGPA Board to create my Spider-Man mask. I started by creating a new project, adding my template code files used in previous Labs [1], and then altered and added to them to create my design. 
 The previous labs guided me through the set up process using Vivado and the Basys3 board. I follow the set up protocal of build, synthesise, implement and then progamming the board.
 
-<img width="1500" height="750" alt="Project Summary Photo" src="https://github.com/user-attachments/assets/0623e279-75fb-4346-8504-38662d82fad0" />
+<img width="2250" height="900" alt="Project Summary Photo" src="https://github.com/user-attachments/assets/0623e279-75fb-4346-8504-38662d82fad0" />
 <br>
 (Project Summary Window of my VGA Project Setup)
 
