@@ -76,7 +76,7 @@ Before programming the Basys3 board, the VGA system is checked through Vivado si
 <img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/5fc6de25-3dcd-4b2d-a681-fc64b65dc0af" />
 <img width="1500" height="750" alt="image" src="https://github.com/user-attachments/assets/7d382617-b611-4d9d-8918-ffb51e59b0b3" />
 
-After the simulation process, Vivado carried out the synthesis, which converted my VGA pixel-art design from code into a hardware circuit that I used to run on the Basys3 FGPA. During this step, Vivado determined how the modules in my project, such as the VGA timing module and pixel colour logic are implemented using actual FGPA resources like flip-flops, LUTs and I/O buffers. 
+After the simulation process, Vivado carried out the synthesis, which converted my VGA pixel-art design from code into a hardware circuit that I used to run on the Basys3 FGPA. During this step, Vivado determined how the modules in my project, such as the VGA timing module and pixel colour logic are implemented using actual FGPA resources like flip-flops, LUTs and I/O buffers. [3]
 <br>
 The photo of my circuit above shows how different parts of my code are mapped to physical hardware components that drive the VGA output and display the pixel art on the monitor.
 <br>
@@ -90,6 +90,8 @@ After roughly 70 if elses and 530 lines of code... Here is my Finished Spider-Ma
 [1] M.Lynch, "System On Chip", Lecture/Lab, ATU, Galway, 2025
 <br>
 [2] Pixil Art, "Spider-Man", [Online], Available: [PixilArt](https://www.pixilart.com/art/spider-man-pixel-art-sr254518abb76aws3). 
+<br>
+[3] ChatGPT, For a deeper understanding on Simulation and Synthesis, [Online], Available: [ChatGPT](https://chatgpt.com)
 
 
 
